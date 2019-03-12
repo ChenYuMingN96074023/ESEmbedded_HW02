@@ -51,8 +51,15 @@ This is the hw02 sample. Please follow the steps below.
 
 --------------------
 
-- [x] **If you volunteer to give the presentation next week, check this.**
+-**If you volunteer to give the presentation next week, check this.**
 
 --------------------
 
-Please take your note here.
+i tries some push/pop instructionand then find that
+
+1.it must be "push {r0, r1, r2}","push {r2, r0, r1}"will make assembler's warding,
+and then automatically change instruction into"push {r0, r1, r2}" 
+2."push {r0, r1, r2}"push r2 first,and then r1 and r0
+3.if you pop things more then push,there will be no warning
+
+
